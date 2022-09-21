@@ -2,15 +2,16 @@
 
 function checkprime(num){
 
-  
+
+  let factors =0;
   for(let i=0;i<=num;i++){
      if(num%i==0){
-      
+      factors++;
     }
       }if(factors ==2){
       console.log(num,"is a prime");
     }else{
-      console.log(,"is not prime");
+      console.log(num,"is not prime");
 }
 }
 checkprime(120); 
