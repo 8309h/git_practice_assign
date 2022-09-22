@@ -1,17 +1,17 @@
 /// program for check  whether the given number is prime or not.
 
-function checkprime(num){
+function checkprime(number){
 
 
   let factors =0;
-  for(let i=0;i<=num;i++){
-     if(num%i==0){
+  for(let i=0;i<=number;i++){
+     if(number%i==0){
       factors++;
     }
       }if(factors ==2){
-      console.log(num,"is a prime");
+      console.log(number,"is a prime");
     }else{
-      console.log(num,"is not prime");
+      console.log(number,"is not prime");
 }
 }
 checkprime(120); 
